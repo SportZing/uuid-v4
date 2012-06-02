@@ -17,7 +17,7 @@ var uuid = require('uuid-v4');
 var myUUID = uuid();
 
 // Validate a UUID as proper V4 format
-console.log(uuid.isUUID(myUUID));  // true
+uuid.isUUID(myUUID);  // true
 ```
 
 ## MIT License
